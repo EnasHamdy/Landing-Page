@@ -1,0 +1,71 @@
+/* Import fonts */
+/* Big Shoulders Display */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+/* Libre Baskerville */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* Basic styles for the page */
+body{
+    background: linear-gradient(to top left, #16bffd, #cb3066);
+    color: #ffffff;    
+    margin: 0;
+}
+/* Typography */
+/* Page Header */
+h1{    
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 150px;
+    padding-left: 60px;
+}
+h2{
+    font-family :'Courier New', Courier, monospace;
+    font-size: 50px;
+    border-bottom:orange solid 3px;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+/* Styles of the navigation bar */
+/* Navbar list : ul */
+.navbar ul{
+    background-color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding-left: 0;
+    margin: 0;
+}
+/* Navbar items: li */
+.navbar li{
+    display:inline-block;
+}
+/* Navbar links: a */
+.navbar a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family :'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* Navbar links when hover */
+.navbar li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+/* main: contains 4-sections */
+main{
+    margin: 0;
+}
+/* .section_container class of the div contents of section */
+.section_container{
+    width: 70%;
+    padding: 60px;
+}
+/* Page footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
